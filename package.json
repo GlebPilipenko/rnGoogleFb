@@ -10,8 +10,10 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-native-google-signin/google-signin": "^7.2.2",
     "react": "17.0.2",
-    "react-native": "0.68.0"
+    "react-native": "0.68.0",
+    "react-native-config": "^1.4.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

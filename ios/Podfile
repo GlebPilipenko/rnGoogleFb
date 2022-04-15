@@ -19,6 +19,8 @@ target 'rnGoogleFb' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'GoogleSignIn', '~> 6.1.0'
+
   target 'rnGoogleFbTests' do
     inherit! :complete
     # Pods for testing
